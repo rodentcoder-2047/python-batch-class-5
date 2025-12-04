@@ -12,5 +12,10 @@ print(Games)
 Games.pop()
 print(Games)
 
+#iteration 
+for Game in Games:
+    print(Game)
+for i in range(len(Games)):
+    print(f"list{i} has game" , Games[i])
 
 
