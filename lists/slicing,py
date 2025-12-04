@@ -1,0 +1,16 @@
+#list of games
+Games = [ "Cricket" , "football" , "hockey", "Chess" ,]
+#slicing a list 
+print(Games[1:3])
+#updation and deletion 
+Games.append("Volleyball")
+print(Games)
+Games.insert(2 , "Basketball")
+print(Games)
+ 
+#Deleting values from list
+Games.pop()
+print(Games)
+
+
+
