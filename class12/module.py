@@ -1,4 +1,3 @@
-from math import pow , sqrt 
-num = int(input("enter a number"))
-print ("Square =", pow(num , 2 ))
-print("Square root =" , sqrt(num))
+#using alias method 
+import math as m 
+print(m.sqrt(16))
